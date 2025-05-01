@@ -1,1 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Corrección Automática de Exámenes</title>
+    <!-- Incluye las bibliotecas necesarias -->
+    <script src="https://cdn.jsdelivr.net/npm/tesseract.js@4/dist/tesseract.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <script async src="https://docs.opencv.org/4.7.0/opencv.js" onload="onOpenCvReady();" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- La estructura HTML permanece igual que en tu versión original -->
+    <div class="container">
+        <h1>Sistema de Corrección Automática de Exámenes</h1>
+        
+        <div class="tab">
+            <button class="tablinks active" onclick="openTab(event, 'setup')">Configuración</button>
+            <button class="tablinks" onclick="openTab(event, 'answerKey')">Clave de Respuestas</button>
+            <button class="tablinks" onclick="openTab(event, 'scanning')">Escaneo</button>
+            <button class="tablinks" onclick="openTab(event, 'results')">Resultados</button>
+        </div>
+        
+        <!-- Los contenidos de las pestañas permanecen iguales -->
+        ...
+    </div>
 
+    <!-- Incluye el nuevo script mejorado -->
+    <script src="app.js"></script>
+</body>
+</html>
