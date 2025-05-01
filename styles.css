@@ -1,0 +1,55 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+/* Todos tus estilos originales... */
+/* (Mantén los mismos estilos que tenías) */
+
+/* Estilos adicionales para la versión mejorada */
+.student-data-highlight {
+    background-color: #fffde7;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    border-left: 4px solid #ffd600;
+}
+
+.ocr-result {
+    font-family: monospace;
+    white-space: pre-wrap;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+
+.accuracy-warning {
+    color: #ff5722;
+    font-weight: bold;
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+    .matrix-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .camera-container {
+        margin-bottom: 10px;
+    }
+    
+    button {
+        padding: 8px 12px;
+        font-size: 0.9em;
+    }
+}
